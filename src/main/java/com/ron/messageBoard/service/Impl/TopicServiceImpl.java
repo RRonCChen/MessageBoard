@@ -1,10 +1,9 @@
 package com.ron.messageBoard.service.Impl;
 
-import com.ron.messageBoard.Exception.MessageBoardException;
-import com.ron.messageBoard.Exception.MessageBoardNotFountException;
-import com.ron.messageBoard.Exception.MessageBoardParameterErrorException;
+import com.ron.messageBoard.exception.MessageBoardException;
+import com.ron.messageBoard.exception.MessageBoardNotFountException;
+import com.ron.messageBoard.exception.MessageBoardParameterErrorException;
 import com.ron.messageBoard.entity.data.Topic;
-import com.ron.messageBoard.entity.data.User;
 import com.ron.messageBoard.repository.TopicRepository;
 import com.ron.messageBoard.service.TopicService;
 import org.springframework.beans.factory.annotation.Autowired;

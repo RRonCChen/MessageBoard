@@ -1,6 +1,6 @@
 package com.ron.messageBoard.service;
 
-import com.ron.messageBoard.Exception.MessageBoardException;
+import com.ron.messageBoard.exception.MessageBoardException;
 import com.ron.messageBoard.entity.data.Topic;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.ron.messageBoard.Exception;
+package com.ron.messageBoard.exception;
 
 import lombok.Data;
 

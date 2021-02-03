@@ -1,12 +1,8 @@
 package com.ron.messageBoard.service;
 
-import com.ron.messageBoard.Exception.MessageBoardException;
+import com.ron.messageBoard.exception.MessageBoardException;
 import com.ron.messageBoard.entity.api.result.PageResultEntity;
-import com.ron.messageBoard.entity.data.Message;
 import com.ron.messageBoard.entity.data.User;
-import org.springframework.data.domain.Page;
-
-import java.util.Optional;
 
 public interface UserService {
 

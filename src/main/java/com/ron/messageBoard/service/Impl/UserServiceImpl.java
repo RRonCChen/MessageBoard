@@ -1,8 +1,8 @@
 package com.ron.messageBoard.service.Impl;
 
-import com.ron.messageBoard.Exception.MessageBoardException;
-import com.ron.messageBoard.Exception.MessageBoardNotFountException;
-import com.ron.messageBoard.Exception.MessageBoardParameterErrorException;
+import com.ron.messageBoard.exception.MessageBoardException;
+import com.ron.messageBoard.exception.MessageBoardNotFountException;
+import com.ron.messageBoard.exception.MessageBoardParameterErrorException;
 import com.ron.messageBoard.entity.api.result.PageResultEntity;
 import com.ron.messageBoard.entity.data.User;
 import com.ron.messageBoard.repository.UserRepository;

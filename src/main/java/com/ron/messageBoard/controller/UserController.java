@@ -1,8 +1,7 @@
 package com.ron.messageBoard.controller;
 
-import com.ron.messageBoard.Exception.MessageBoardException;
+import com.ron.messageBoard.exception.MessageBoardException;
 import com.ron.messageBoard.entity.api.response.ApiResponse;
-import com.ron.messageBoard.entity.api.result.PageResultEntity;
 import com.ron.messageBoard.entity.data.User;
 import com.ron.messageBoard.service.UserService;
 import io.swagger.annotations.Api;
@@ -13,7 +12,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 

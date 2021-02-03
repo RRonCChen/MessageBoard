@@ -1,9 +1,8 @@
 package com.ron.messageBoard.service;
 
-import com.ron.messageBoard.Exception.MessageBoardException;
+import com.ron.messageBoard.exception.MessageBoardException;
 import com.ron.messageBoard.entity.api.result.MessageResultEntity;
 import com.ron.messageBoard.entity.api.result.PageResultEntity;
-import com.ron.messageBoard.entity.data.Message;
 
 public interface MessageService {
 
